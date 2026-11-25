@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff8a00">
+  <title>GassinSosmed — SMM Panel Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#" aria-label="GassinSosmed beranda">
+      <span class="brand-icon">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 5c-9 11-13 21-11 34l-8 9 12-2 7 11 7-11 12 2-8-9C45 26 41 16 32 5Z" fill="currentColor"/><path d="M22 34 11 41l-2 11 14-7M42 34l11 7 2 11-14-7" fill="currentColor"/><circle cx="32" cy="28" r="5" fill="#ff8a00"/></svg>
+      </span>
+      <span class="brand-words"><strong>GassinSosmed</strong><small>SOCIAL MEDIA MARKETING PANEL</small></span>
+    </a>
+    <button class="hamburger" id="menuButton" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <nav class="menu" id="siteMenu">
+    <a class="active" href="#masuk"><span>⇥</span> Masuk</a>
+    <a href="#daftar"><span>♙</span> Daftar</a>
+    <a href="#harga"><span>▤</span> List Harga</a>
+    <a href="#ketentuan"><span>☰</span> Ketentuan Layanan</a>
+    <a href="#kontak"><span>♧</span> Kontak Kami</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-decoration decor-one"></div><div class="hero-decoration decor-two"></div>
+      <div class="hero-copy">
+        <div class="eyebrow">SOCIAL MEDIA MARKETING PANEL</div>
+        <h1>SMM Panel Praktis<br>untuk Indonesia</h1>
+        <h2><span>Gass</span> Lebih Jauh!</h2>
+        <p class="tagline">Kelola kebutuhan pemasaran digitalmu dalam satu tempat.</p>
+        <div class="sparkles" aria-hidden="true">✦　·　♡　·　✦</div>
+      </div>
+
+      <section class="auth-card" id="masuk">
+        <div class="card-title"><span class="lock">♙</span><div><h3>Selamat Datang!</h3><p>Masuk ke akun GassinSosmed kamu</p></div></div>
+        <form id="loginForm">
+          <label for="username">Username</label>
+          <input id="username" name="username" autocomplete="username" placeholder="Masukkan username" required>
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Masukkan password" required>
+          <a class="forgot" href="#bantuan">Lupa Password?</a>
+          <button class="login-button" type="submit">Login</button>
+          <p class="register-line">Belum punya akun? <a href="#daftar">Daftar sekarang</a></p>
+          <div class="divider"><span>ATAU</span></div>
+          <button class="google-button" type="button" id="googleButton"><b>G</b> Lanjutkan dengan Google</button>
+          <p class="demo-warning" id="formMessage">Demo tampilan: login belum diaktifkan.</p>
+        </form>
+      </section>
+    </section>
+
+    <section class="below">
+      <div class="quick-info" id="daftar"><b>Belum punya akun?</b><span>Pendaftaran pelanggan akan tersedia setelah sistem akun diaktifkan.</span></div>
+      <div class="quick-info" id="harga"><b>List Harga</b><span>Katalog dan informasi harga akan ditampilkan secara transparan.</span></div>
+      <div class="quick-info" id="ketentuan"><b>Ketentuan Layanan</b><span>Setiap layanan akan dilengkapi deskripsi dan ketentuan yang jelas.</span></div>
+    </section>
+  </main>
+
+  <footer id="kontak"><span>© 2026 GassinSosmed</span><span>Kontak Kami</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
