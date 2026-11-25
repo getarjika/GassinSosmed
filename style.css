@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#fff}
+body{font-family:Arial,sans-serif}
+.page{position:relative;width:min(100%,1024px);margin:0 auto;line-height:0}
+.reference{display:block;width:100%;height:auto}
+.hamburger{position:absolute;left:89.8%;top:2.2%;width:7.3%;height:4.5%;border:0;background:transparent;cursor:pointer}
+.menu{display:none;position:absolute;z-index:5;right:3%;top:7%;width:min(280px,55%);padding:16px;background:#fff;border-radius:14px;box-shadow:0 10px 30px #0003;line-height:1.4}
+.menu.open{display:grid;gap:13px}
+.menu a{font-size:14px;color:#252532;text-decoration:none;font-weight:700}
+.login-overlay{position:absolute;inset:0;pointer-events:none}
+.login-overlay input,.login-overlay button,.login-overlay a{position:absolute;pointer-events:auto}
+.login-overlay input{left:9%;width:82.5%;height:4.95%;border:0;outline:0;background:transparent;padding:0 6.5%;font-size:clamp(12px,2.6vw,27px);color:#262633;line-height:1}
+.login-overlay input::placeholder{color:transparent}
+.username{top:51.55%}
+.password{top:60.55%;padding-right:14%!important}
+.toggle{left:85.4%;top:60.6%;width:6.2%;height:4.5%;border:0;background:transparent;cursor:pointer}
+.forgot{left:71.8%;top:66.0%;width:20%;height:3.5%;font-size:0}
+.submit{left:9%;top:69.6%;width:82.5%;height:5.2%;border:0;background:transparent;cursor:pointer}
+.register{left:49%;top:76.0%;width:27%;height:3.8%;font-size:0}
+@media(min-width:1025px){.page{width:1024px}}
